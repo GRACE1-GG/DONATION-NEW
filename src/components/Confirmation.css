@@ -1,0 +1,44 @@
+.confirmation-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .donation-summary {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .donation-message {
+    margin: 1rem 0;
+  }
+  
+  .share-buttons {
+    margin-top: 2rem;
+  }
+  
+  .share-button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .twitter-button {
+    background-color: #1DA1F2;
+    color: white;
+  }
+  
+  .facebook-button {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .twitter-button:hover {
+    background-color: #0d8bde;
+  }
+  
+  .facebook-button:hover {
+    background-color: #2d4373;
+  }
+  
