@@ -1,38 +1,40 @@
-/* src/components/Banner.css */
 .banner-container {
-    background-image: url('../assets/image.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    padding: 20px;
-  }
-  
-  .banner-title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .cta-buttons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .cta-button {
-    background-color: #007bff;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .cta-button:hover {
-    background-color: #0056b3;
-  }
-  
+  background-image: url('../assets/image.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  padding: 20px;
+  margin-bottom: 1rem; /* Ensure it doesn't overlap with other elements */
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,59 @@
+.p-6 {
+    padding: 1.5rem;
+}
+.max-w-xl {
+    max-width: 36rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-2xl {
+    font-size: 1.5rem;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.mb-4 {
+    margin-bottom: 1rem;
+}
+.w-full {
+    width: 100%;
+}
+.p-2 {
+    padding: 0.5rem;
+}
+.border {
+    border-width: 1px;
+}
+.border-gray-300 {
+    border-color: #d1d5db;
+}
+.rounded {
+    border-radius: 0.25rem;
+}
+.bg-blue-500 {
+    background-color: #3b82f6;
+}
+.text-white {
+    color: #ffffff;
+}
+.mt-2 {
+    margin-top: 0.5rem;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.exchange-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .exchange-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }

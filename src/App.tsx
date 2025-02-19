@@ -1,17 +1,21 @@
+//import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import Donate from './components/Donate';
+import Confirmation from './components/Confirmation';
+import Exchange from './components/Exchange'; // Ensure correct path
+import './App.css';
 
-import './App.css'// src/App.tsx
-import React from 'react';
-import Banner from './components/Banner';
-import ImpactHighlights from './components/ImpactHighlights';
-import Testimonials from './components/Testimonials';
-
-const App: React.FC = () => {
+const App = () => {
   return (
-    <div>
-      <Banner />
-      <ImpactHighlights />
-      <Testimonials />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/confirmation" element={<Confirmation />} />
+        <Route path="/exchange" element={<Exchange />} />
+      </Routes>
+    </Router>
   );
 };
 

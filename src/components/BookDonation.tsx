@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const BookDonationForm = () => {
+const BookDonation = () => {
   const [bookTitle, setBookTitle] = useState('');
   const [author, setAuthor] = useState('');
   const [gradeLevel, setGradeLevel] = useState('');
@@ -109,4 +109,4 @@ const BookDonationForm = () => {
   );
 };
 
-export default BookDonationForm;
+export default BookDonation;

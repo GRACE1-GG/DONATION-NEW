@@ -1,24 +1,35 @@
-/* src/components/ImpactHighlights.css */
 .impact-highlights {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-  }
-  
-  .highlight-item {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    flex: 1;
-  }
-  
-  .highlight-item h2 {
-    font-size: 1.5rem;
-  }
-  
-  .highlight-item p {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem; /* Adjust margin to provide spacing */
+  padding: 1.5rem;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-width: 1px;
+  border-color: #d1d5db;
+  border-radius: 0.25rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
+.highlight-item {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+}
+
+.highlight-item h2 {
+  font-size: 1.5rem;
+}
+
+.highlight-item p {
+  font-size: 2rem;
+  font-weight: bold;
+}

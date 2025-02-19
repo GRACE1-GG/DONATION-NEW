@@ -1,5 +1,5 @@
 import React from "react";
-import BookDonation from "./BookDonationForm";
+import BookDonation from "./BookDonation";
 import MonetaryDonation from "./MonetaryDonationForm";
 
 const Donate: React.FC = () => {
